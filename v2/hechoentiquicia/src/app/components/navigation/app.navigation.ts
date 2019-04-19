@@ -16,4 +16,10 @@ export class AppComponent {
       'url': '/'
     }
   ];
+
+  status: boolean = false;
+  openMenu(){
+      this.status = !this.status;
+      console.log(this.status);      
+  }
 }
