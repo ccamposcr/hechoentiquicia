@@ -9,12 +9,10 @@
         align-items: center;
     }
     &__logo{
-        height: 40px;
         margin: 0 auto;
         display: block;
         @include media($screen-xs-min){
             margin: 0;
-            height: 50px;
             display: inline-block;
         }
     }
