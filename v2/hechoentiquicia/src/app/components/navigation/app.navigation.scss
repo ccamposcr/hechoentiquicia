@@ -1,7 +1,7 @@
 @import '../../../clientlibs/style.scss';
 
 .navigation{
-    padding: 18px 0;
+    padding: 24px 0;
     position: relative;
     @include media($screen-xs-min){
         padding: 20px 30px;
@@ -32,7 +32,7 @@
             padding: 0;
             width: 100%;
             float: none;
-            margin-left: 100px;
+            margin-left: 60px;
         }
     }
     &__item{
@@ -45,7 +45,7 @@
         a{
             color: $color-black;
             text-decoration: none;
-            font-size: $copy-size-l;
+            font-size: $copy-size;
         }
     }
 
@@ -60,8 +60,8 @@
         }
         .open-menu{
             &__bar1, &__bar2, &__bar3 {
-                width: 35px;
-                height: 5px;
+                width: 30px;
+                height: 3px;
                 background-color: #333;
                 margin: 6px 0;
                 transition: 0.4s;
@@ -72,8 +72,7 @@
             .open-menu{
                 /* Rotate first bar */
                 &__bar1 {
-                    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-                    transform: rotate(-45deg) translate(-9px, 6px) ;
+                    transform: rotate(-45deg) translate(-5px, 4px) ;
                 }
 
                 /* Fade out the second bar */
@@ -83,7 +82,6 @@
 
                 /* Rotate last bar */
                 &__bar3 {
-                    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
                     transform: rotate(45deg) translate(-8px, -8px) ;
                 }
             }

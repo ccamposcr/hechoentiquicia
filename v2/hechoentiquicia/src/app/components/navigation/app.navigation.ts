@@ -14,6 +14,10 @@ export class AppComponent {
     {
       'item': 'Servicios',
       'url': '/'
+    },
+    {
+      'item': 'Contáctenos',
+      'URL': '/'
     }
   ];
 
