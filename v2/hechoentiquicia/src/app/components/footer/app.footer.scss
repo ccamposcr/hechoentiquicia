@@ -1,0 +1,10 @@
+@import '../../../clientlibs/style.scss';
+
+.footer{
+    background-color: $color-gray;
+    padding: $content-padding $content-padding;
+    span{
+        color: $color-dark-gray;
+        font-size: $copy-size-xs;
+    }
+}
