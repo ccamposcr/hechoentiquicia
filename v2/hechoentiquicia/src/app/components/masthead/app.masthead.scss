@@ -1,0 +1,48 @@
+@import '../../../clientlibs/style.scss';
+
+.masthead{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .separator{
+        display: none;
+        @include media($screen-xs-min){
+            display: inline;
+        }
+    }
+    &__image{
+        width: 100%;
+        min-height: 665px;
+        background-size: cover;
+        background-position: top right;
+    }
+    &__content{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .content{
+        &__title{
+            font-size: $copy-size-xxl;
+            @include media($screen-xs-min){
+                font-size: $heading-size-s;
+            }
+        }
+        &__detail{
+            font-size: $copy-size;
+            @include media($screen-xs-min){
+                font-size: $copy-size-xxl;
+            }
+        }
+        &__title,
+        &__detail{
+            color: $color-white;
+            text-shadow: 2px 2px 2px $color-black;
+        }
+    }
+}

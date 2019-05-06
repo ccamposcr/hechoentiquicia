@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-navigation',
   templateUrl: './app.navigation.html',
   styleUrls: ['./app.navigation.scss']
 })
-export class AppComponent {
+export class AppNavigationComponent {
   menuItems = [
     {
       'item': 'Nosotros',
