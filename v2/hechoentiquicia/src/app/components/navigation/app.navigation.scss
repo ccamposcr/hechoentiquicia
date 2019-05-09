@@ -6,6 +6,7 @@
     @include media($screen-xs-min){
         padding: 20px 0;
         display: flex;
+        justify-content: space-between;
         align-items: center;
     }
     &__logo{
@@ -33,7 +34,7 @@
         @include media($screen-xs-min){
             display: block;
             padding: 0;
-            width: 100%;
+            width: auto;
             float: none;
             margin-left: 60px;
             position: static;
@@ -46,6 +47,9 @@
             display: inline-block;
             margin-right: 60px;
             padding: 0;
+            &:last-child{
+                margin-right: 0;
+            }
         }
         a{
             color: $color-black;

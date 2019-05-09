@@ -1,0 +1,14 @@
+@import '../../../clientlibs/style.scss';
+
+
+.social-share{
+    .icon{
+        display: inline-block;
+        &--facebook{
+            color: $color-blue-fb;
+        }
+        &:before{
+            font-size: $copy-size-xl;
+        }
+    }
+}

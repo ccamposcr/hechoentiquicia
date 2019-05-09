@@ -8,4 +8,18 @@ body{
 .container{
     max-width: 1200px;
     margin: auto;
+    
+    &__columns{
+        display: flex;
+        justify-content: space-between;
+        &--two{
+            .container__column{
+                width: 50%;
+            }
+        }
+    }
+}
+
+.icon{
+    text-decoration: none;
 }
