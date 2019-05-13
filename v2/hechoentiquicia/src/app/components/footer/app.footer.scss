@@ -3,6 +3,11 @@
 .footer{
     background-color: $color-gray;
     padding: $content-padding $content-padding;
+
+    @include media($screen-xs-min){
+        padding: 60px 0;
+    }
+    
     span{
         color: $color-dark-gray;
         font-size: $copy-size-xs;

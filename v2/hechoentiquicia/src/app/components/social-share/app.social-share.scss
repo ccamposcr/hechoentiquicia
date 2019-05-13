@@ -7,8 +7,18 @@
         &--facebook{
             color: $color-blue-fb;
         }
+        &--mail,
+        &--phone{
+            color: $color-light-blue;
+        }
         &:before{
             font-size: $copy-size-xl;
         }
+    }
+    &__link{
+        font-size: $copy-size-xs;
+        text-decoration: none;
+        color: $color-dark-gray;
+        margin-left: 10px;
     }
 }

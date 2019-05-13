@@ -1,3 +1,4 @@
+@import 'mixins/_media_queries.scss';
 body{
     font-size: $copy-size;
     font-family: 'Roboto Slab', serif;
@@ -10,8 +11,10 @@ body{
     margin: auto;
     
     &__columns{
-        display: flex;
-        justify-content: space-between;
+        @include media($screen-xs-min){
+            display: flex;
+            justify-content: space-between;
+        }
         &--two{
             .container__column{
                 width: 50%;

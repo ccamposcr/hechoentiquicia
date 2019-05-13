@@ -24,7 +24,12 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon--phone:before {
+    content: "\e942";
+  }
+  .icon--mail:before {
+    content: "\ea86";
+  }
   .icon--facebook:before {
     content: "\ea91";
   }
-  
