@@ -23,7 +23,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
+
   .icon--phone:before {
     content: "\e942";
   }
@@ -33,3 +33,7 @@
   .icon--facebook:before {
     content: "\ea91";
   }
+  .icon--whatsapp:before {
+    content: "\ea93";
+  }
+  

@@ -1,4 +1,26 @@
 @import '../../../clientlibs/style.scss';
 
 .services{
+    &__matrix{
+        @include media($screen-xs-min){
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+    .matrix{
+        &__service{
+            width: 100%;
+            height: 240px;
+            border: 5px solid $color-gray;
+            color: $color-dark-gray;
+            margin-bottom: 30px;
+            text-align: center;
+            line-height: 240px;
+            @include media($screen-xs-min){
+                width: 30%;
+            }
+        }
+    }
 }

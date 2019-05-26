@@ -1,5 +1,8 @@
 <div class="services container section">
   <h3>Nuestros Servicios</h3>
+  <div class="services__matrix">
+    <div class="matrix__service" *ngFor="let item of services">{{item.item}}</div>
+  </div>
 </div>
 
 <router-outlet></router-outlet>
