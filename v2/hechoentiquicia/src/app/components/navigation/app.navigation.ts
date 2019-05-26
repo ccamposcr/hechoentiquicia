@@ -7,17 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppNavigationComponent {
   menuItems = [
-    {
+   {
       'item': 'Nosotros',
-      'url': '/'
-    },
-    {
-      'item': 'Servicios',
-      'url': '/'
-    },
-    {
-      'item': 'Contáctenos',
-      'URL': '/'
+      'url': '/nosotros'
     }
   ];
 

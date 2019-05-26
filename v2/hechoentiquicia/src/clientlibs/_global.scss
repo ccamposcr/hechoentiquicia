@@ -26,8 +26,23 @@ body{
 .section{
     margin-top: $section-maring;
     margin-bottom: $section-maring;
+    padding-left: $content-padding;
+    padding-right: $content-padding;
+    @include media($screen-xs-min){
+        padding: 0;
+    }
 }
 
 .icon{
     text-decoration: none;
+}
+
+a{
+    &:hover{
+        color: $color-light-blue;
+    }
+}
+
+p{
+    line-height: 30px;
 }

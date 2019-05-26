@@ -1,13 +1,11 @@
 <div class="navigation container">
-  <img class="navigation__logo" src="/assets/images/HT_logo.png" alt="HT Agencia Digital | Hecho en Tiquicia"/>
+  <a routerLink=""><img class="navigation__logo" src="/assets/images/HT_logo.png" alt="HT Agencia Digital | Hecho en Tiquicia"/></a>
   <div class="navigation__open-menu" (click)="openMenu($event)" [ngClass]="status ? 'change' : ''">
     <div class="open-menu__bar1"></div>
     <div class="open-menu__bar2"></div>
     <div class="open-menu__bar3"></div>
   </div>
   <ul class="navigation__menu" [ngClass]="status ? 'active' : ''">
-    <li *ngFor="let item of menuItems" class="navigation__item"><a href="{{item.url}}">{{item.item}}</a></li>
+    <li *ngFor="let item of menuItems" class="navigation__item"><a routerLink="{{item.url}}">{{item.item}}</a></li>
   </ul>
 </div>
-
-<router-outlet></router-outlet>

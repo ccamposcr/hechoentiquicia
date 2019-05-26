@@ -1,8 +1,6 @@
 @import '../../../clientlibs/style.scss';
 
 .services{
-    padding-left: $content-padding;
-    padding-right: $content-padding;
     &__matrix{
         @include media($screen-xs-min){
             display: flex;
