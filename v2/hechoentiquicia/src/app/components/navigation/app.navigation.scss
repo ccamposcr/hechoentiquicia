@@ -3,7 +3,7 @@
 .navigation{
     padding: 24px 0;
     position: relative;
-    @include media($screen-xs-min){
+    @include media($screen-md-min){
         padding: 20px 0;
         display: flex;
         justify-content: space-between;
@@ -12,7 +12,7 @@
     &__logo{
         margin: 0 auto;
         display: block;
-        @include media($screen-xs-min){
+        @include media($screen-md-min){
             margin: 0;
             display: inline-block;
         }
@@ -31,7 +31,7 @@
         &.active{
             display: block;
         }
-        @include media($screen-xs-min){
+        @include media($screen-md-min){
             display: block;
             padding: 0;
             width: auto;
@@ -43,7 +43,7 @@
     }
     &__item{
         padding: 10px 10px 10px 25%;
-        @include media($screen-xs-min){
+        @include media($screen-md-min){
             display: inline-block;
             margin-right: 60px;
             padding: 0;
@@ -67,7 +67,7 @@
         position: absolute;
         right: $content-padding;
         top: 20px;
-        @include media($screen-xs-min){
+        @include media($screen-md-min){
             display: none;
         }
         .open-menu{

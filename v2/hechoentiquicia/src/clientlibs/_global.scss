@@ -11,7 +11,7 @@ body{
     margin: auto;
     
     &__columns{
-        @include media($screen-xs-min){
+        @include media($screen-md-min){
             display: flex;
             justify-content: space-between;
         }
@@ -28,7 +28,7 @@ body{
     margin-bottom: $section-maring;
     padding-left: $content-padding;
     padding-right: $content-padding;
-    @include media($screen-xs-min){
+    @include media($screen-md-min){
         padding: 0;
     }
 }

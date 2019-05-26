@@ -4,7 +4,7 @@
     background-color: $color-gray;
     padding: $content-padding $content-padding;
 
-    @include media($screen-xs-min){
+    @include media($screen-md-min){
         padding: 60px 0;
     }
     
@@ -15,7 +15,7 @@
     .container__column{
         &:first-child{
             margin-bottom: 30px;
-            @include media($screen-xs-min){
+            @include media($screen-md-min){
                 margin-bottom: 0;
             }
         }

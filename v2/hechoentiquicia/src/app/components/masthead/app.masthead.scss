@@ -7,7 +7,7 @@
     justify-content: center;
     .separator{
         display: none;
-        @include media($screen-xs-min){
+        @include media($screen-md-min){
             display: inline;
         }
     }
@@ -29,13 +29,13 @@
     .content{
         &__title{
             font-size: $copy-size-xxl;
-            @include media($screen-xs-min){
+            @include media($screen-md-min){
                 font-size: $heading-size-s;
             }
         }
         &__detail{
             font-size: $copy-size;
-            @include media($screen-xs-min){
+            @include media($screen-md-min){
                 font-size: $copy-size-xxl;
             }
         }
