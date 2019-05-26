@@ -4,6 +4,7 @@
 .social-share{
     .icon{
         display: inline-block;
+        margin-right: 10px;
         &--facebook{
             color: $color-blue-fb;
         }
@@ -20,6 +21,5 @@
         font-size: $copy-size-xs;
         text-decoration: none;
         color: $color-dark-gray;
-        margin-left: 10px;
     }
 }

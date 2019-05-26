@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.footer.scss']
 })
 export class AppFooterComponent {
+  getDate(){
+    return new Date().getFullYear();
+  }
 }
